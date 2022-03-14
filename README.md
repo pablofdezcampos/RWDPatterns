@@ -7,7 +7,16 @@
 - 
 # Patterns Structure
 - Flex-box
-    - asd
+    - display: flex
+
+- Grid
+    - display: grid
+    - grid-template-columns
+    - column-gap: 2rem;
+    - justify-content
+    - grid-auto-flow -> automatic placement
+    - grid-column -> place the element in the place you choose
+    - layout-shifter -> with grid-areas  
 
 # VIEW
 - https://storefrontedpagepf.netlify.app
