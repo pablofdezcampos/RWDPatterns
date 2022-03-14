@@ -29,5 +29,3 @@ CSS3 atributte you required to place correctly the elemetns.
 
 - Mostly Fluid
     - Little changes of the elements when you required it.
-
-# VIEW
