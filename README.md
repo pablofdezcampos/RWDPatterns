@@ -6,6 +6,7 @@
 - CSS3 for the styles of the elements in the page.
 
 # Patterns Structure
+CSS3 atributte you required to place correctly the elemetns.
 - Flex-box
     - display: flex
     - gap
