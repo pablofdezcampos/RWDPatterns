@@ -12,6 +12,7 @@
     - flex-basis: calc(60% - 1rem) -> the element will occupy the 60% 
     - order: -1 -> move the element to -1 position
     - flex-wrap: wrap -> positioned the element in the space that it covers
+    - flex: 1 -> the larger the number, the element will ocuppy more space
 
 - Grid
     - display: grid
