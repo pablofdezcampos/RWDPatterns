@@ -47,4 +47,23 @@ p {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+/** CODE HERE **/
+@media (min-width: 480px) {
+   .column-drop-flex{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap; /* positioned the element in the space that it covers*/
+   }
+
+   .main-content, .aside-1{
+       flex-basis: calc(50% - 1rem);
+   }
+}
+
+@media (min-width: 768px) {
+   .main-content, .aside-1, .aside-2{
+       flex: calc(33,3% - 2rem);
+   }
+   /* To put the element in a screen of min 768px in a row*/
+   /* DOES NOT WORK */ 
+}

@@ -36,4 +36,26 @@ p {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+/** CODE HERE **/
+
+.contenedor{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%; /* always responsive the image*/
+}
+
+@media (min-width: 768px) {
+   .contenedor{
+       width: 80%;
+   }
+}
+
+@media (min-width: 992px) {
+   .contenedor{
+       width: 60%;
+   }
+}

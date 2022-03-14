@@ -48,4 +48,41 @@ p {
 }
 
 
-/** CODIGO AQUI **/
+/** CODE HERE **/
+@media (min-width: 768px) {
+    .layout-shifter{
+        display: grid;
+        grid-template-areas: "content" 
+                             "lower";
+    }
+
+    .sidebar{
+        grid-area: lower;
+    }
+
+    .main-content{
+        grid-area: content;
+        display: grid;
+        grid-template-areas: "entry1" "entry2";
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+        
+}
+
+@media (min-width: 992px) {
+   .layout-shifter{
+       grid-template-areas: "content" "sidebar";
+   }
+
+   .sidebar{
+       grid-area: sidebar;
+   }
+
+   .main-content{
+       grid-area: content;
+       grid-template-areas: "entry1"
+                            "entry2";
+        grid-template-columns: unset;                            
+   }
+}

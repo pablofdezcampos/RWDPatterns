@@ -57,4 +57,12 @@ p {
     .main-content{
         flex-basis: calc(60% - 1rem);
     }
+
+    .sidebar{
+        flex-basis: calc(20% - 1rem);
+    }
+
+    .sidebar-1{
+        order: -1; /* Move the element to -1 position */
+    }
 }
