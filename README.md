@@ -23,4 +23,10 @@
     - grid-column -> place the element in the place you choose
     - layout-shifter -> with grid-areas  
 
+- Tiny Tweaks
+    - Little changes of the size, placement, color... of an element when you required it.
+
+- Mostly Fluid
+    - Little changes of the elements when you required it.
+
 # VIEW
