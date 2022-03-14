@@ -24,4 +24,3 @@
     - layout-shifter -> with grid-areas  
 
 # VIEW
-- https://storefrontedpagepf.netlify.app
