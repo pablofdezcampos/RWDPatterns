@@ -8,6 +8,10 @@
 # Patterns Structure
 - Flex-box
     - display: flex
+    - gap
+    - flex-basis: calc(60% - 1rem) -> the element will occupy the 60% 
+    - order: -1 -> move the element to -1 position
+    - flex-wrap: wrap -> positioned the element in the space that it covers
 
 - Grid
     - display: grid
